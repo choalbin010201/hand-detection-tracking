@@ -1,0 +1,15 @@
+{
+  "model": "yolo26n.pt",
+  "device": "mps",
+  "torch_version": "2.14.1",
+  "ultralytics_version": "8.4.189",
+  "epochs_requested": 100,
+  "batch": 4,
+  "imgsz": 640,
+  "seed": 42,
+  "workers": 0,
+  "amp": false,
+  "train_images": 16,
+  "val_images": 4,
+  "note": "Versions reported by the original run; not a complete dependency lock."
+}

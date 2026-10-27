@@ -1,0 +1,91 @@
+{
+  "seed": 42,
+  "method": "seeded image-level 80/20 split",
+  "source": "User-provided IMG_4540 through IMG_4559 (20 image/label pairs)",
+  "splits": {
+    "train": [
+      {
+        "image": "IMG_4549.jpeg",
+        "boxes": 1
+      },
+      {
+        "image": "IMG_4553.jpeg",
+        "boxes": 1
+      },
+      {
+        "image": "IMG_4555.jpeg",
+        "boxes": 1
+      },
+      {
+        "image": "IMG_4558.jpeg",
+        "boxes": 1
+      },
+      {
+        "image": "IMG_4546.jpeg",
+        "boxes": 1
+      },
+      {
+        "image": "IMG_4552.jpeg",
+        "boxes": 1
+      },
+      {
+        "image": "IMG_4557.jpeg",
+        "boxes": 1
+      },
+      {
+        "image": "IMG_4550.jpeg",
+        "boxes": 1
+      },
+      {
+        "image": "IMG_4541.jpeg",
+        "boxes": 1
+      },
+      {
+        "image": "IMG_4551.jpeg",
+        "boxes": 1
+      },
+      {
+        "image": "IMG_4542.jpeg",
+        "boxes": 1
+      },
+      {
+        "image": "IMG_4556.jpeg",
+        "boxes": 1
+      },
+      {
+        "image": "IMG_4547.jpeg",
+        "boxes": 1
+      },
+      {
+        "image": "IMG_4548.jpeg",
+        "boxes": 1
+      },
+      {
+        "image": "IMG_4540.jpeg",
+        "boxes": 1
+      },
+      {
+        "image": "IMG_4543.jpeg",
+        "boxes": 1
+      }
+    ],
+    "val": [
+      {
+        "image": "IMG_4559.jpeg",
+        "boxes": 1
+      },
+      {
+        "image": "IMG_4545.jpeg",
+        "boxes": 1
+      },
+      {
+        "image": "IMG_4554.jpeg",
+        "boxes": 1
+      },
+      {
+        "image": "IMG_4544.jpeg",
+        "boxes": 1
+      }
+    ]
+  }
+}

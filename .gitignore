@@ -1,0 +1,31 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.vscode/
+.idea/
+.env
+.env.*
+
+# Local data, weights and run outputs
+dataset/
+raw_dataset/
+runs/
+outputs/
+*.pt
+*.onnx
+*.mp4
+*.mov
+*.MOV
+*.avi
+latest_training.json
+*_console.txt
+bbox_tracker_tests.txt
+*.log
+*.zip
+
+# Assignment documents are not repository artifacts
+*.pdf
+*.docx

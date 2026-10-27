@@ -1,0 +1,13 @@
+{
+  "device": "mps",
+  "fps": 29.994297662041436,
+  "frames": 263,
+  "duration_seconds": 8.768333333333333,
+  "frames_with_detections": 213,
+  "longest_detected_seconds": 3.90074144486692,
+  "longest_same_id_seconds": 3.433986058301648,
+  "allocated_ids": 13,
+  "tracking_iou_threshold": 0.5,
+  "confidence_threshold": 0.25,
+  "note": "User-provided run statistics. Paths removed for publication. Frame/FPS durations; no ground-truth tracking annotations."
+}
