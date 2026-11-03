@@ -40,7 +40,7 @@ def prepare(source, destination, seed=42):
         raise ValueError('Expected obj.names or data.yaml defining exactly one class: hand.')
     images = sorted(p for p in files if p.suffix.lower() in {'.jpg', '.jpeg', '.png'})
     if len(images) < 2:
-        raise ValueError('Need at least 2 images, preferably the full Week 6 dataset of 20 or more.')
+        raise ValueError('Need at least 2 images; use a larger and diverse dataset for reliable validation.')
     labels = {}
     for p in files:
         if p.suffix.lower() == '.txt':
