@@ -1,4 +1,4 @@
-"""Week 7 skeleton completion: IoU + detection-order greedy tracker.
+"""IoU-based detection-order greedy hand tracker.
 
 Usage: python hand_tracking.py --source test.mp4
        python hand_tracking.py --self-test
@@ -49,7 +49,7 @@ class Tracker:
         for box in detections:
             best_track = None
             best_iou = -1.0
-            # PDF 스켈레톤과 같이 detection 순서대로 이전 Track 중 최적 후보 탐색.
+            # 현재 검출 순서대로 이전 트랙 중 최적 후보 탐색.
             for track in self.tracks:
                 if track.id in matched_ids:
                     continue
@@ -63,7 +63,7 @@ class Tracker:
             else:
                 updated_tracks.append(Track(self.next_id, box))
                 self.next_id += 1
-        # 이번 프레임에 매칭되지 않은 Track은 제거: 제공된 기본 알고리즘 유지.
+        # 이번 프레임에 매칭되지 않은 이전 트랙은 제거.
         self.tracks = updated_tracks
         return updated_tracks
 
