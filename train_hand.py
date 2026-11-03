@@ -1,4 +1,4 @@
-"""PDF의 YOLO26n fine-tuning; Mac용 batch/worker 설정."""
+"""Fine-tune YOLO26n for hand detection with macOS-friendly settings."""
 import argparse
 import json
 from datetime import datetime
